@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aakash Kumbhargan</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Email JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+    <title>Photo Gallery</title>
+    <style>
+        body {
+           
+             background: linear-gradient(to top, #41295a, #2f0743);
+           
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+        }
+        .gallery img {
+            margin: 10px;
+            border: 2px solid #176863;
+            border-radius: 5px;
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.4s;
+        }
+        .gallery img:hover {
+            transform: scale(2.05);
+            
+            }
+        
+    </style>
+</head>
+<body>
+    <h1 class="h2" style="text-align: center;">My Photo Gallery</h1>
+    <div class="gallery">
+        <img src="./assets/images/photo1.jpg" alt="Photo 1">
+        <img src="./assets/images/photo2.jpg" alt="Photo 2">
+        <img src="./assets/images/photo3.jpg" alt="Photo 3">
+        <img src="./assets/images/photo4.jpg" alt="Photo 4">
+        <img src="./assets/images/photo5.jpg" alt="Photo 5">
+        <img src="./assets/images/photo6.jpg" alt="Photo 6">
+    </div>
+</body>
+</html>
